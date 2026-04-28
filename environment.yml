@@ -1,0 +1,20 @@
+name:
+- retic_demo
+channels:
+- conda-forge
+dependencies:
+- python~=3.10.0
+- ipython
+- jupyterlab
+- loguru
+- matplotlib-base
+- notebook
+- nsight-compute
+- numpy
+- pandas
+- pytest
+- python-dotenv
+- ruff
+- scikit-learn
+- tqdm
+- typer

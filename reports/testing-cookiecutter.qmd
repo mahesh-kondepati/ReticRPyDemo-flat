@@ -1,0 +1,21 @@
+### First we setup cookiecutter environment for folder structure
+```{python}
+pipx install cookiecutter-data-science
+
+# From the parent directory where you want this project
+ccds
+```
+
+contd..
+
+- To create a new project run this command at the command line. 
+- The cookiecutter will create a directory for you. **No need to create manually.**
+
+```{python}
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+```
+
+
+```{python}
+
+```
