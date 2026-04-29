@@ -1,5 +1,4 @@
-name:
-- retic_demo
+name: retic_demo
 channels:
 - conda-forge
 dependencies:

@@ -34,7 +34,7 @@ lemurs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tid
 
 library(reticulate)
 # Explicitely set the path to use Conda environment
-use_condaenv("retic_demo", conda = "C:/Users/mahes/anaconda3/Scripts/conda.exe", required = TRUE)
+use_condaenv("retic_demo", required = TRUE)
 ```
 
 ```{r}
