@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-This is a short demo of reticulate to create a bilingual project using alternating r and python code chunks within .qmd file. Not sure if we can create a .qmd file successfullly from ccds. Lets see! We will use lemur-data from tidytuesday. This demo is a replica of the Nicola Rennies blog post (url: https://nrennie.rbind.io/blog/combining-r-and-python-with-reticulate-and-quarto/)
+This is a short demo of reticulate to create a bilingual project using alternating r and python code chunks within .qmd file. Not sure if we can create a .qmd file successfullly from ccds. Lets see! We will use lemur-data from tidytuesday. This demo is a customised replica of the Nicola Rennies blog post (url: https://nrennie.rbind.io/blog/combining-r-and-python-with-reticulate-and-quarto/). Additionally, I am testing the reproducibility by using .renv (for r) and conda (for python) for package and environment management. 
 
 ## Project Organization
 
