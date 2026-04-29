@@ -13,7 +13,7 @@ execute:
 #### What is Quarto
 Quarto is an open-source scientific and technical publishing system that lets you combine narrative text with code to create reproducible and elegantly formatted output.
 
-It is similar to Rmarkdown, a polished extension to it. An big feature of Quarto is that it also supports languages apart from R, like say Python.
+It is similar to Rmarkdown, a polished extension to it. A big feature of Quarto is that it also supports languages apart from R, like say Python.
 
 Quarto documents have two main sections: 
 
@@ -108,7 +108,7 @@ lemur_data_py["Predicted"] = mod.predict(x)
 lemur_data_py["Residuals"] = mod.resid
 ```
 
-The key part here is the r. on line 4 - this tells {reticulate} to look in the R code for an object called lemur_data. You can think of this line as importing your data from R to Python. Other than that, it’s pretty standard Python code. Here, we’ve kept it very simple and fitted a linear model:
+The key part here is the r. on line 1(or line 4 if you are looking at a .qmd file) - this tells {reticulate} to look in the R code for an object called lemur_data. You can think of this line as importing your data from R to Python. Other than that, it’s pretty standard Python code. Here, we’ve kept it very simple and fitted a linear model:
 
 Obviously, R has the capabilities to fit a linear model, and for this simple example there’s no need for us to use Python. However, this illustrates how you might approach the problem, if you find yourself needing to use a particular library or model that you can only find in Python.
 
